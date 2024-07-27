@@ -31,6 +31,14 @@ const Navbar = () => {
       title: "Blogs",
       path: "/blogs",
     },
+    {
+      title: "Category",
+      path: "/categorys",
+    },
+    {
+      title: "Dashboard",
+      path: "/dashboard",
+    },
   ];
   return (
     <div>
