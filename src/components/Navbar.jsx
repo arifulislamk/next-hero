@@ -8,6 +8,12 @@ const Navbar = () => {
   const loginHandler = () => {
     router.push("/login");
   };
+
+  if(pathName.includes("/dashboard")) return (
+    <nav className=" bg-green-400">
+      Dashboard navbar
+    </nav>
+  )
   const link = [
     {
       title: "About",
